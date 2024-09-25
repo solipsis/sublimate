@@ -8,7 +8,7 @@ Simple utility for running arbitrary commands when the Ethereum gas price drops 
 
     Usage: sublimate [flags] cmd
       -gwei float
-    	  gas price threshold to execute command at (default 1gwei) (default 1)
+    	  gas price threshold in gwei to execute command at (default 1)
       -interval int
     	  interval between price checks in seconds (default 60)
       -rpc string
